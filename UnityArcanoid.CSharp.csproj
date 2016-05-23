@@ -73,6 +73,7 @@
     <Compile Include="Assets\Brick\Brick 2 life\Brick_2_life_Script.cs" />
     <Compile Include="Assets\GameMaster\GM_Script.cs" />
     <Compile Include="Assets\GameMaster\WallScript.cs" />
+    <Compile Include="Assets\Platform\Platformcontrol.cs" />
     <Compile Include="Assets\Scripts\MainCam.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

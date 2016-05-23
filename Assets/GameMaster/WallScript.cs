@@ -43,12 +43,13 @@ public class WallScript : MonoBehaviour
         WallVert = Resources.Load("Wall/WallVert") as GameObject;
         WallHor = Resources.Load("Wall/WallHor") as GameObject;
 
-        
-    }
+	    CreateWall();
+	}
 	
 	
     public void CreateWall()
     {
+        //Start();
         //берем случайный кубик стены
         GameObject brick = WallBrick[Random.Range(0, WallBrick.Count)];
         //берем случайный тотем

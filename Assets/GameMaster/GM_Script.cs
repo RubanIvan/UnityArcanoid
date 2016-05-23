@@ -37,10 +37,12 @@ public class GM_Script : MonoBehaviour
         }
 
         Instantiate(BackGroundList[Random.Range(0,BackGroundList.Count)]);
-        
-        
-        this.GetComponent<WallScript>().CreateWall();
-        
+
+
+        Instantiate(Resources.Load("Platform/PlatformNormal") as GameObject);
+
+        //this.GetComponent<WallScript>().CreateWall();
+
 
     }
 	

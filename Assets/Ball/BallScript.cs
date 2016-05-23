@@ -4,7 +4,7 @@ using System.Collections;
 public class BallScript : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
+	void StartBall () {
 	        this.GetComponent<Rigidbody2D>().velocity=new Vector2(1f,-150f);
 	}
 	
