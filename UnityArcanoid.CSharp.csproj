@@ -75,6 +75,7 @@
     <Compile Include="Assets\GameMaster\WallScript.cs" />
     <Compile Include="Assets\Platform\Platformcontrol.cs" />
     <Compile Include="Assets\Scripts\MainCam.cs" />
+    <Compile Include="Assets\Wall\WallBallKiller.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
