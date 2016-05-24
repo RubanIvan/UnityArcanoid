@@ -57,6 +57,12 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -72,8 +78,9 @@
     <Compile Include="Assets\Brick\Brick 1 life\Brick_1_life_Script.cs" />
     <Compile Include="Assets\Brick\Brick 2 life\Brick_2_life_Script.cs" />
     <Compile Include="Assets\GameMaster\GM_Script.cs" />
-    <Compile Include="Assets\GameMaster\WallScript.cs" />
     <Compile Include="Assets\Platform\Platformcontrol.cs" />
+    <Compile Include="Assets\PlatformLife\LifeCellScript.cs" />
+    <Compile Include="Assets\PlatformLife\LifeIndicator.cs" />
     <Compile Include="Assets\Scripts\MainCam.cs" />
     <Compile Include="Assets\Wall\WallBallKiller.cs" />
   </ItemGroup>

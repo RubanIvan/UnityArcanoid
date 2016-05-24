@@ -12,4 +12,12 @@ public class BallScript : MonoBehaviour {
 	void Update () {
 	
 	}
+
+    public void EndAnim()
+    {
+        Destroy(gameObject);
+        //gameObject.SetActive(false);
+        
+    }
+
 }

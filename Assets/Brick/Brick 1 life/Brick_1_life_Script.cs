@@ -29,7 +29,8 @@ public class Brick_1_life_Script : MonoBehaviour
     //вызывается по окончании анимации
     public void EndAnim()
     {
-        gameObject.SetActive(false);
-        this.GetComponent<Animator>().SetBool("IsDead", false);
+        //gameObject.SetActive(false);
+        Destroy(gameObject);
+        //this.GetComponent<Animator>().SetBool("IsDead", false);
     }
 }

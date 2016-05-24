@@ -37,6 +37,7 @@ public class Platformcontrol : MonoBehaviour {
 	    {
 	        if (Input.GetAxis("Jump") != 0 || Input.GetAxis("Submit") != 0 || Input.GetAxis("Fire1") != 0)
 	        {
+                if(Ball==null) Ball = GameObject.FindGameObjectWithTag("BallTag");
                 //освобождаем мяч и даем ему ускорение
                 Ball.transform.parent = null;
                 Ball.GetComponent<Rigidbody2D>().velocity = new Vector2(1f, 250f);

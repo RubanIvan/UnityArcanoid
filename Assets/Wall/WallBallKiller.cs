@@ -22,6 +22,8 @@ public class WallBallKiller : MonoBehaviour
         if (collision.gameObject.tag == "BallTag")
         {
             //Destroy(collision.gameObject);
+            collision.gameObject.GetComponent<Animator>().SetBool("IsKilled", true);
+            Destroy(collision.gameObject.GetComponent<CircleCollider2D>());
             if (BallKilled != null) BallKilled();
         }
     }
